@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "h2o_debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/xjy/RL/D2C/example/benchmark/demo_h2o.py",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}",
+            "cwd": "/home/xjy/RL/D2C/example/benchmark" 
+        },
+        {
+            "name": "darc_debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/xjy/RL/D2C/example/benchmark/demo_darc.py",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}",
+            "cwd": "/home/xjy/RL/D2C/example/benchmark" 
+        }
+    ]
+}

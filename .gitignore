@@ -1,0 +1,22 @@
+/example/application*/data/*
+/example/application*/models/*
+/example/benchmark/data/*/*/*
+/example/benchmark/data/neorl/*
+/example/benchmark/data/isaac_gym/*
+example/benchmark/data/d4rl/datasets/
+!/example/benchmark/data/*/*/*.py
+/example/benchmark/models/*
+__pycache__
+.idea
+# .vscode
+/test/utils/temp/*
+/test/data/temp/*
+/test/evaluators/*/temp/*
+/test/models/model_free/temp/*
+/test/trainers/temp/*
+example/benchmark/nohup.out
+
+# Sphinx documentation
+docs/_build/
+d2c.egg-info/
+example/benchmark/*.log
