@@ -1,8 +1,6 @@
 """
 Implementation of SAC (Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor)
 Paper: https://arxiv.org/abs/1801.01290.pdf
-
-Refer to https://github.com/t6-thu/H2Oplus/blob/master/SimpleSAC/sac.py, the following revised content is rewritten by Jiayi Xie, Xi'an Jiaotong University.
 """
 import collections
 
@@ -21,7 +19,7 @@ from d2c.networks_and_utils_for_agent.sac_nets_utils import SamplerPolicy, Actor
 
 class SACAgent(BaseAgent):
     """
-    DARC Agent for cross-domain online reinforcement learning.
+    SAC Agent for online reinforcement learning.
     """
     def __init__(
             self,

@@ -1,8 +1,6 @@
 """
 Implementation of DARC (Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers)
 Paper: https://arxiv.org/abs/2006.13916.pdf
-
-Refer to https://github.com/t6-thu/H2Oplus/blob/master/SimpleSAC/darc.py, the following revised content is rewritten by Jiayi Xie, Xi'an Jiaotong University.
 """
 import collections
 import torch
