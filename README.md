@@ -44,7 +44,7 @@ The example scripts are under [example/](./example/benchmark) folder and [test/]
 ## Installation
 D2C interface can be installed as follows:
 ```commandline
-git clone https://github.com/AIR-DI/D2C.git
+git clone https://github.com/EzioPeter/D2C-XJTU.git
 cd d2c
 pip install -e .
 ```
