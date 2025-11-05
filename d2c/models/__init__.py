@@ -12,6 +12,7 @@ from d2c.models.imitation.dmil import DMILAgent
 from d2c.models.imitation.bc import BCAgent
 from d2c.models.model_free.iql import IQLAgent
 from d2c.models.model_free.sac import SACAgent
+from d2c.models.model_free.dqn import DQNAgent
 
 AGENT_MODULES_DICT = {
     'td3_bc': TD3BCAgent,
@@ -21,7 +22,8 @@ AGENT_MODULES_DICT = {
     'dmil': DMILAgent,
     'bc': BCAgent,
     'iql': IQLAgent,
-    'sac': SACAgent
+    'sac': SACAgent,
+    'dqn':DQNAgent
 }
 
 

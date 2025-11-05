@@ -68,6 +68,16 @@
         optimizers: {v: ['adam', 3e-4], q: ['adam', 3e-4], p: ['adam', 3e-4]}
       }
     },
+    dqn:{
+      train_schedule:['agent'],
+      hyper_params:{
+        model_params:{ q: [[256, 256], 1],},
+        optimizers:{ q: ['adam', 2.5e-4] },
+        gamma: 0.99,
+        alpha: 0.000,
+        batch_size: 128
+      }
+    },
   },
   env: {
     basic_info: {state_dim: null, state_min: null, state_max: null,
